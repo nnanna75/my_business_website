@@ -1,0 +1,284 @@
+body{
+    width: auto;
+    height: auto;
+    color: antiquewhite;
+    background: #000;
+    font-family:  Helvetica, Arial, sans-serif;
+    display: block;
+    overflow-x: hidden;
+}
+.container::before{
+    content: "";
+    background: url("./netflix_pics/background.jpg") no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    z-index: -1;
+}
+.container .navbar{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.container .navbar .left{
+    height: 100px;
+    float: left;
+}
+.container .navbar .left img{
+    width: 150px;
+    height: 95px;
+    position: absolute;
+    left: 35px;
+    margin-top: 1px;
+    margin-left: 20px;
+}
+.container .navbar .right{
+    display: flex;
+    height: 100px;
+    float: right;
+    position: absolute;
+    right: 30px;
+}
+.container .navbar .right button{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 7px 17px;
+    background: red;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+}
+.container .navbar .right button a{
+    text-decoration: none;
+    color: white;
+}
+.container .title{
+    padding: 70px 45px;
+}
+.content{
+    width: 550px;
+    margin: auto;
+    padding: 75px 0;
+    text-align: center;
+    font-size: 20px;
+}
+.h1{
+    display: block;
+    width: 650px;
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+.h2{
+    display: block;
+    width: 650px;
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+}
+.h3{
+    display: block;
+    width: 650px;
+    margin: auto;
+    font-size: 19px;
+    text-align: center;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.email input{
+    margin-right: 500px;
+    height: 15px;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+    outline: none;
+    margin-top: -0px;
+    margin-left: 5px;
+}
+.email button{
+    margin: auto;
+    height: 60px;
+    width: 300px;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 59px;
+    padding: 7px 17px;
+    background: red;
+    cursor: pointer;
+    outline: none;
+    margin-left: 340px;
+    margin-top: -79px;
+    margin-right: -20px;
+}
+.email button a{
+    text-decoration: none;
+    color: white;
+}
+.less{
+    margin-top: -140px;
+    margin-left: 540px;
+}
+.hr{
+    margin-top: 70px;
+    height: 5px;    
+    background: gray;
+}
+.enjoy{
+    margin-top: 150px;
+    margin-left: 100px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.watch{
+    margin-left: 100px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tv{
+    display: flex;
+    margin-left: 600px;
+    margin-top: -300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.download{
+    margin-left: 600px;
+    margin-top: -400px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.save{
+    margin-left: 600px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.zon{
+    margin-top: 200px;
+    height: 5px;    
+    background: rgb(32, 32, 32); 
+}
+.everywhere{
+    margin-top: 150px;
+    margin-left: 100px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.stream{
+    margin-left: 100px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kids{
+    margin-left: 700px;
+    margin-top: -400px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.adventure{
+    margin-left: 700px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cen{
+    font-size: 29px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.questions{
+    height: 25px;
+    width: 700px;
+    margin: auto;
+    margin-left: 250px;
+    padding: 20px;
+    font-size: 25px;
+    outline: none;
+    margin-bottom: 10px;
+    background-color: rgb(43, 43, 43);
+    color: rgb(255, 255, 255);
+}
+.head{
+    margin-top: 70px;
+    margin-left: 150px;
+}
+.mail{
+    margin-right: 350px;
+    height: 15px;
+    width: 500px;
+    margin: auto;
+    margin-left: 200px;
+    padding: 20px;
+    font-size: 20px;
+    outline: none;
+    margin-top: 40px;
+}
+.get{
+    margin: auto;
+    height: 60px;
+    width: 250px;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 59px;
+    margin-left: -10px;
+    padding: 7px 17px;
+    background: red;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+.get a{
+    text-decoration: none;
+    color: white;
+}
+.dan{
+    margin-top: -130px;
+    margin-left: 950px;
+    width: 1000px;
+}
+.contact{
+    margin-left: 200px;
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+.fax{
+    margin-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: gray;
+}
+.help{
+    margin-left: 450px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: -180px;
+}
+.way{
+    margin-left: 700px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: -110px;
+}
+.use{
+    margin-left: 950px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: -105px;
+}
+.plus{
+    display: flex;
+    margin-top: -90px;
+    margin-left: 950px;
+}

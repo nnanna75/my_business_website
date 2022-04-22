@@ -1,0 +1,21 @@
+@media screen and (max-width:787px){
+    .container::before{
+        content: "";
+        background: url("./netflix_pics/background.jpg") no-repeat center center/cover;
+    }
+
+    .tv{
+        display: flex;
+        margin-left: 50px;
+        margin-top: -50px;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
+    }
+
+    .kids{
+        margin-left: 100px;
+        margin-top: -100px;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
